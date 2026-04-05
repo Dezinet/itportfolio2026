@@ -7,6 +7,12 @@ import Image from "next/image";
 import Link from "next/link";
 import projectsData from "@/content/projects/data.json";
 
+export function generateStaticParams() {
+  return projectsData.map((project) => ({
+    slug: project.slug,
+  }));
+}
+
 export default function ProjectDetail() {
   const { slug } = useParams();
   const [copied, setCopied] = useState(false);
