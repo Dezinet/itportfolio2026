@@ -13,6 +13,10 @@ A high-performance, human-centric, and Cloudflare-ready portfolio template built
 
 ## 📸 Project Tour
 
+### AI Assistant & Navigation
+![AI Assistant](public/screenshots/chatbot.png)
+*How to edit*: Customize conversational logic and suggested paths in `src/components/ui/ChatBot.tsx`.
+
 ### Projects Grid
 ![Projects Grid](public/screenshots/projects.png)
 *How to edit*: Update project data in `src/content/projects/data.json` to automatically reflect your work.
