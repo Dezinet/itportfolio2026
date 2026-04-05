@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Premium Portfolio Showcase 2026
 
-## Getting Started
+A high-performance, human-centric, and Cloudflare-ready portfolio template built with Next.js 16 and React 19. This is an open-source project designed for modern developers and technical professionals.
 
-First, run the development server:
+![Hero Section](public/screenshots/hero.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
+- **Modern Aesthetics**: Glassmorphic UI with purple/cyan accents and smooth Framer Motion animations.
+- **AI Assistant**: Programmatic chatbot for seamless site navigation and user interaction.
+- **Repository-Style Projects**: Detailed project pages with technical metrics, "Clone Repo" functionality, and README-style content.
+- **Responsive Design**: Fully optimized for Mobile, Tablet, and Desktop.
+- **Cloudflare Ready**: Pre-configured for Cloudflare Pages with edge-runtime support and high security headers.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Project Tour
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Projects Grid
+![Projects Grid](public/screenshots/projects.png)
+*How to edit*: Update project data in `src/content/projects/data.json` to automatically reflect your work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Resume Page
+![Resume Layout](public/screenshots/resume.png)
+*How to edit*: Modify the lists in `src/app/resume/page.tsx` to customize your work experience and skill clouds.
 
-## Learn More
+### Contact & Footer
+![Contact Footer](public/screenshots/contact_footer.png)
+*How to edit*: Configure your email recipient in `src/app/api/contact/route.ts` (if added) or update your links in `src/components/layouts/Footer.tsx`.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Dezinet/itportfolio2026.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
+This project is optimized for Cloudflare Pages.
+1. Run `npx @cloudflare/next-on-pages` to build.
+2. Link your repository to Cloudflare Pages for automatic deployments.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+This project is open-source. You are free to edit, distribute, and enhance this template for your personal or commercial portfolio.
+
+---
+Built with 💜 by [Dezinet](https://github.com/Dezinet)
