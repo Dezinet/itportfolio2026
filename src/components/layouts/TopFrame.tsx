@@ -23,7 +23,7 @@ export default function TopFrame() {
         </p>
 
         <a 
-          href="https://github.com/user/itportfolio2026" 
+          href="https://github.com/Dezinet/itportfolio2026" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-[10px] font-black text-white hover:text-purple-400 transition-colors uppercase tracking-[2px] border-b border-white/20 hover:border-purple-400/50 pb-0.5 ml-0 sm:ml-4"
