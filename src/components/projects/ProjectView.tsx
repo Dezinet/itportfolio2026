@@ -6,9 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface Project {
+  id: number;
   slug: string;
   title: string;
-  year: string;
+  year: number;
   category: string;
   industry: string;
   desc: string;
