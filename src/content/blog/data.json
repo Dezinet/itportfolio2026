@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Scaling Smart Robots",
+    "date": "March 24, 2026",
+    "cat": "Systems",
+    "desc": "How I help thousands of smart computer programs work together without any problems.",
+    "slug": "scaling-smart-robots"
+  },
+  {
+    "id": 2,
+    "title": "Making AI Start Faster",
+    "date": "March 15, 2026",
+    "cat": "AI",
+    "desc": "Simple tricks I use to make AI systems respond 40% faster than before.",
+    "slug": "making-ai-faster"
+  },
+  {
+    "id": 3,
+    "title": "Moving Data Closer to You",
+    "date": "March 02, 2026",
+    "cat": "Cloud",
+    "desc": "Why modern apps are moving their data closer to where people actually live.",
+    "slug": "moving-data-closer"
+  },
+  {
+    "id": 4,
+    "title": "Designing for Everyone",
+    "date": "Feb 20, 2026",
+    "cat": "Design",
+    "desc": "How to create websites that are easy to use for people with all kinds of needs.",
+    "slug": "designing-for-everyone"
+  },
+  {
+    "id": 5,
+    "title": "Keeping Your Data Safe",
+    "date": "Feb 05, 2026",
+    "cat": "Security",
+    "desc": "Common mistakes people make with online security and how to avoid them easily.",
+    "slug": "keeping-data-safe"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "neural-viz",
+    "title": "3D Brain View",
+    "cat": "AI and 3D",
+    "desc": "A cool 3D way to see how a computer brain actually thinks in real time.",
+    "status": "Testing...",
+    "tech": ["3D Graphics", "AI Tools"]
+  },
+  {
+    "id": "agent-scaling",
+    "title": "Smart Robot Control",
+    "cat": "Big Systems",
+    "desc": "Testing how 10,000 smart robots can talk to each other at the exact same time without any lag.",
+    "status": "Reading...",
+    "tech": ["Fast Code", "Real-time Tools"]
+  },
+  {
+    "id": "glass-ui",
+    "title": "Clean Glass Look",
+    "cat": "Design Tools",
+    "desc": "A set of design tools that make any website look like it was made of clean, clear glass.",
+    "status": "Ready!",
+    "tech": ["Modern CSS", "Animations"]
+  },
+  {
+    "id": "speed-test",
+    "title": "Super Fast Loading",
+    "cat": "Quick Tech",
+    "desc": "A new way to make large images and videos load on a phone instantly.",
+    "status": "Working...",
+    "tech": ["Optimization", "Next.js"]
+  },
+  {
+    "id": "secure-lock",
+    "title": "Digital Vault",
+    "cat": "Security",
+    "desc": "Testing a new way to store digital files so that only you can ever see them.",
+    "status": "Testing...",
+    "tech": ["Security", "Encryption"]
+  }
+]
